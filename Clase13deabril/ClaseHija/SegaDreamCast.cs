@@ -9,10 +9,10 @@ namespace Clase13deabril.ClaseHija
 {
     internal class SegaDreamCast:ClsConsola
     { 
-        public string PantallaControlor { get; set; }
+        public string PantallaControl { get; set; }
         public String MostrarDetalleSegaDreamCast()
         {
-            return MostrarDetalles() + "Controlador: " + PantallaControlor;
+            return MostrarDetalles() + "Controlador: " + PantallaControl;
 
         }
     }

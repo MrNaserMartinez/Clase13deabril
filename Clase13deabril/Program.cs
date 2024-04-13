@@ -26,10 +26,10 @@ Console.WriteLine($"{xb.MostrarDetalleXbox()}");
 
 //instancia de ps1
 
-SegaDreamCast dg = new PlayStation();
-ps.Marca = "Play Station 1";
-ps.anioLanzamiento = 1994;
-ps.ModeloContorlador = "DualSence";
-Console.WriteLine($"{ps.MostrarDetallePLay()}");
+SegaDreamCast dg = new SegaDreamCast();
+dg.Marca = "SegaDreamCast";
+dg.anioLanzamiento = 1990;
+dg.PantallaControl = "Pantalla";
+Console.WriteLine($"{dg.MostrarDetalleSegaDreamCast()}");
 
 
